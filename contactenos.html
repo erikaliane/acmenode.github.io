@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>ACME</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  
+  <div class="navbar navbar-dark bg-primary navbar-expand-sm">
+    <div class="container d-flex justify-content-between">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        
+        <strong>ACME</strong>
+      </a>
+      <ul class="navbar-nav text-danger  " >
+        <li class="nav-item">
+         <a class="nav-link active" href="">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="./nosotros.html">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Nuestros Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Catologo de Clientes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="./contactenos.html">Contacto</a>
+        </li>
+    </ul>
+    </div>
+  </div>
+</header>
+
+<body>
+    
+<main>
+
+  <header >
+            <div class="text-center">
+
+           </div>
+        </header>
+
+  <div class="album py-5 bg-light">
+    
+    <link href="form-validation.css" rel="stylesheet">
+  </head>
+  <body class="bg-light">
+    
+<div class="container">
+  <main>
+    <div class="py-5 text-center">
+      <img class="d-block mx-auto mb-4" src="https://img.freepik.com/vector-premium/logotipo-reparacion-computadoras-ilustracion-icono-identidad-marca_7109-520.jpg?w=2000" alt="" width="72" height="57">
+      <h2>ACME</h2>
+      <p class="lead">Recibe todas las novedades de ofertas ,descuentos...!!</p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-5 col-lg-4 order-md-last d-none d-md-block  ">
+        <div class="card mb-3">
+          <a href=""><img class="card-img-top" src="https://www.infotec.com.pe/img/cms/Banner%20Lateral/BANNER-400-X-200-RYZEN-9-ENERO-2.png" alt="..." height="400" /></a>
+          <div class="card-body"></div>
+      </div>
+        
+
+   
+      </div>
+      <div class="col-md-7 col-lg-8">
+      
+        <form class="needs-validation" >
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">NOMBRE</label>
+              <input type="text" class="form-control" id="firstName" placeholder=""  required>
+              <div class="invalid-feedback">
+                Se reuiere un Nombre valido
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">APELLIDO</label>
+              <input type="text" class="form-control" id="lastName" placeholder=""  required>
+              <div class="invalid-feedback">
+                Se requiere Apellido Valido
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="username" class="form-label">CORREO</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" id="username" placeholder="alejandra@hotmail.com" required>
+              <div class="invalid-feedback">
+                  Your username is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label">Email  <span class="text-muted">(Optional) </span></label>
+              <input type="email" class="form-control" id="email" required >
+              <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+              </div>
+            </div>
+
+       
+
+            <div class="col-md-5">
+              <label for="country" class="form-label">Paìs</label>
+              <select class="form-select" id="country" required>
+            
+                <option>Perù</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid country.
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <label for="state" class="form-label">DEPARTAMENTO</label>
+              <select class="form-select" id="state" required>
+                
+                <option>Lima</option>
+                <option>Trujillo</option>
+                <option>Huanuco</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid state.
+              </div>
+            </div>
+
+       
+          </div>
+
+          <hr class="my-4">
+            
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="same-address">
+            <label class="form-check-label" for="same-address">Recibe noticias , vales , promociones..</label>
+          </div>
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="save-info">
+            <label class="form-check-label" for="save-info">Recibe notificaciones a diario</label>
+          </div>
+
+         
+
+          
+
+       
+
+          <hr class="my-4">
+
+          <button class="w-100 btn btn-info btn-lg" type="submit">Registrate</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+        
+</main>
+
+<footer class="py-5 bg-primary">
+  <div class="container"><p class="m-0 text-center text-white">@ACME- 2023</p></div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+</body>
+</html>
+
+
+
+
+  
